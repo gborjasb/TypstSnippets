@@ -17,5 +17,16 @@
         "path": "./snippets/snippets.code-snippets"
       }
     ]
-  }
+  },
+  "author": "Gborjasb",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gborjasb/TypstSnippets"
+  },
+  "keywords": [
+    "typst",
+    "snippets",
+    "vscode"
+  ]
 }
