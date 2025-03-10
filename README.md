@@ -1,6 +1,23 @@
-# typst-snippets README
+# Typst Snippets
 
-This is the README for your extension "typst-snippets". After writing up a brief description, we recommend including the following sections.
+## Descripción
+Typst Snippets proporciona fragmentos de código útiles para el lenguaje Typst en Visual Studio Code.
+
+## Instalación
+1. Abre Visual Studio Code.
+2. Ve a la extensión de Marketplace.
+3. Busca "Typst Snippets".
+4. Haz clic en "Instalar".
+
+## Uso
+1. Abre un archivo con extensión `.typst`.
+2. Escribe un atajo de fragmento y presiona `Tab` para expandirlo.
+
+## Contribuciones
+Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request en [GitHub](https://github.com/gborjasb/TypstSnippets).
+
+## Licencia
+Este proyecto está licenciado bajo la Licencia MIT.
 
 ## Features
 
