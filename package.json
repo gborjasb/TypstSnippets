@@ -3,6 +3,7 @@
   "displayName": "Typst Snippets",
   "description": "Typst Snippets",
   "version": "0.0.1",
+  "publisher": "gborjasb",
   "engines": {
     "vscode": "^1.98.0"
   },
