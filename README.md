@@ -41,6 +41,39 @@ Initial release of Typst-Snippets
 
 ---
 
+## Important Snippets
+
+Here are some of the most important snippets included in this extension:
+
+### Greek Letters
+
+| Trigger | Snippet |
+| ------- | ------- |
+| `\\alpha` | α |
+| `\\beta` | β |
+| `\\gamma` | γ |
+| `\\delta` | δ |
+| `\\epsilon` | ε |
+| `\\zeta` | ζ |
+| `\\eta` | η |
+| `\\theta` | θ |
+| `\\iota` | ι |
+| `\\kappa` | κ |
+| `\\lambda` | λ |
+| `\\mu` | μ |
+| `\\nu` | ν |
+| `\\xi` | ξ |
+| `\\omicron` | ο |
+| `\\pi` | π |
+| `\\rho` | ρ |
+| `\\sigma` | σ |
+| `\\tau` | τ |
+| `\\upsilon` | υ |
+| `\\phi` | φ |
+| `\\chi` | χ |
+| `\\psi` | ψ |
+| `\\omega` | ω |
+
 ## Working with Markdown
 
 You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
