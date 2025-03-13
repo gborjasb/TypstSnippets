@@ -1,107 +1,122 @@
 # Typst Snippets
 
-## Descripción
-Typst Snippets proporciona fragmentos de código útiles para el lenguaje Typst en Visual Studio Code.
+This extension includes a variety of snippets for **Typst**.
 
-## Instalación
-1. Abre Visual Studio Code.
-2. Ve a la extensión de Marketplace.
-3. Busca "Typst Snippets".
-4. Haz clic en "Instalar".
-
-## Uso
-1. Abre un archivo con extensión `.typst`.
-2. Escribe un atajo de fragmento y presiona `Tab` para expandirlo.
-
-## Contribuciones
-Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request en [GitHub](https://github.com/gborjasb/TypstSnippets).
-
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT.
+## Usage
+1. Open a file with the `.typst` extension.
+2. Type a snippet shortcut and press `Tab` to expand it.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of Typst-Snippets
-
----
-
-## Important Snippets
-
-Here are some of the most important snippets included in this extension:
+Snippets start with `@` or with the initials of the commands
 
 ### Greek Letters
 
-| Trigger | Snippet |
-| ------- | ------- |
-| `\\alpha` | α |
-| `\\beta` | β |
-| `\\gamma` | γ |
-| `\\delta` | δ |
-| `\\epsilon` | ε |
-| `\\zeta` | ζ |
-| `\\eta` | η |
-| `\\theta` | θ |
-| `\\iota` | ι |
-| `\\kappa` | κ |
-| `\\lambda` | λ |
-| `\\mu` | μ |
-| `\\nu` | ν |
-| `\\xi` | ξ |
-| `\\omicron` | ο |
-| `\\pi` | π |
-| `\\rho` | ρ |
-| `\\sigma` | σ |
-| `\\tau` | τ |
-| `\\upsilon` | υ |
-| `\\phi` | φ |
-| `\\chi` | χ |
-| `\\psi` | ψ |
-| `\\omega` | ω |
+| Trigger | Snippet | Character |
+| ------- | ------- | --------- |
+| `@a` | `alpha` | $\alpha$ |
+| `@b` | `beta` | $\beta$ |
+| `@c` | `chi` | $\chi$ |
+| `@d` | `delta` | $\delta$ |
+| `@e` | `epsilon` | $\epsilon$ |
+| `@f` | `phi` | $\phi$ |
+| `@g` | `gamma` | $\gamma$ |
+| `@h` | `eta` | $\eta$ |
+| `@i` | `iota` | $\iota$ |
+| `@k` | `kappa` | $\kappa$ |
+| `@l` | `lambda` | $\lambda$ |
+| `@m` | `mu` | $\mu$ |
+| `@n` | `nu` | $\nu$ |
+| `@p` | `pi` | $\pi$ |
+| `@q` | `theta` | $\theta$ |
+| `@r` | `rho` | $\rho$ |
+| `@s` | `sigma` | $\sigma$ |
+| `@t` | `tau` | $\tau$ |
+| `@u` | `upsilon` | $\upsilon$ |
+| `@o` | `omega` | $\omega$ |
+| `@x` | `xi` | $\xi$ |
+| `@y` | `psi` | $\psi$ |
+| `@z` | `zeta` | $\zeta$ |
+| `@D` | `Delta` | $\Delta$ |
+| `@F` | `Phi` | $\Phi$ |
+| `@G` | `Gamma` | $\Gamma$ |
+| `@Q` | `Theta` | $\Theta$ |
+| `@L` | `Lambda` | $\Lambda$ |
+| `@X` | `Xi` | $\Xi$ |
+| `@Y` | `Psi` | $\Psi$ |
+| `@S` | `Sigma` | $\Sigma$ |
+| `@U` | `Upsilon` | $\Upsilon$ |
+| `@W` | `Omega` | $\Omega$ |
+| `@ve` | `varepsilon` | $\varepsilon$ |
+| `@vf` | `varphi` | $\varphi$ |
+| `@vs` | `varsigma` | $\varsigma$ |
+| `@vq` | `vartheta` | $\vartheta$ |
 
-## Working with Markdown
+### Operators
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+| Trigger | Snippet | Character |
+| ------- | ------- | --------- |
+| `@8` | `infinity` | $\infty$ |
+| `EE` | `exists` | $\exists$ |
+| `FF` | `forall` | $\forall$ |
+| `@*` | `times` | $\times$ |
+| `@6` | `partial` | $\partial$ |
+| `@=` | `equiv` | $\equiv$ |
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+### Math Functions
 
-## For more information
+| Trigger | Snippet | Description |
+| ------- | ------- | ----------- |
+| `FRAC` | `frac($1, $2)` | Fraction |
+| `@sq` | `sqrt($1)` | Square root |
+| `@root` | `root($2, $1)` | Root |
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### Text Fonts
 
-**Enjoy!**
+| Trigger | Snippet | Description |
+| ------- | ------- | ----------- |
+| `TBF` | `*$1*` | Bold text |
+| `TIT` | `_$1_` | Italic text (used for emphasis) |
+| `TSC` | `#smallcaps[$1]` | Smallcaped text |
+| `TUL` | `#underline[$1]` | Underlined text |
+| `TOL` | `#overline[$1]` | Overlined text |
+| `TUC` | `#upper[$1]` | Text in uppercase letters |
+| `TLC` | `#lower[$1]` | Text in lowercase letters |
+| `TSP` | `#super[$1]` | Superscript text |
+| `TSB` | `#sub[$1]` | Subscript text |
+| `TST` | `#strike[$1]` | Striked text |
+| `TCODE` | ` ``${1:language} \n\n`` ` | Code text |
+
+### Math Fonts
+
+| Trigger | Snippet | Description |
+| ------- | ------- | ----------- |
+| `MBF` | `bold($1)` | Bold math text |
+| `MSR` | `serif($1)` | Default roman math font |
+| `MSS` | `sans($1)` | Sans-serif math font |
+| `MFR` | `frak($1)` | Fraktur (Gothic) math font |
+| `MTT` | `mono($1)` | Monospaced math font |
+| `MBB` | `bb($1)` | Blackboard bold math font |
+| `MCA` | `cal($1)` | Calligraphic math font |
+
+### Figures
+
+| Trigger | Snippet | Description |
+| ------- | ------- | ----------- |
+| `FIG` | `#figure(\n ${1:content} ,\ncaption : [${2:caption}]\n)<${3:reference}>` | Figure |
+
+### Tables
+
+| Trigger | Snippet | Description |
+| ------- | ------- | ----------- |
+| `TABLE` | `#table(\n columns: ${1:columns},\n //// align: ,\n table.header[${2:header}],\n [${3:data}]\n)` | Table |
+
+More support for mathematics such as Analysis, Measure Theory, Algebra, etc., will be added.
+
+## Inspiration
+
+This project was inspired by the [LaTeX Workshop](https://github.com/James-Yu/LaTeX-Workshop) extension developed by James Yu. We appreciate his contribution to the LaTeX community.
+
+## Suggestions
+
+Please let us know what other snippets you would like to see.
